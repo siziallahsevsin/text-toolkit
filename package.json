@@ -1,0 +1,50 @@
+{
+  "name": "@siziallahsevsin/text-toolkit",
+  "version": "1.0.0",
+  "description": "A comprehensive text processing utility library with TypeScript support",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "prepublishOnly": "npm run build",
+    "lint": "eslint src/**/*.ts",
+    "format": "prettier --write src/**/*.ts"
+  },
+  "keywords": [
+    "text",
+    "string",
+    "utility",
+    "processing",
+    "typescript",
+    "camelcase",
+    "kebabcase",
+    "slug",
+    "truncate",
+    "validation"
+  ],
+  "author": "siziallahsevsin",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/siziallahsevsin/text-toolkit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/siziallahsevsin/text-toolkit/issues"
+  },
+  "homepage": "https://github.com/siziallahsevsin/text-toolkit#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.5",
+    "@typescript-eslint/eslint-plugin": "^6.7.0",
+    "@typescript-eslint/parser": "^6.7.0",
+    "eslint": "^8.49.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.0.3",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.2.2"
+  }
+}
